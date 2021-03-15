@@ -24,6 +24,7 @@ function init() {
     } else {
             errMessageId.innerHTML = '';
             errMessageExt.innerHTML = '';
+            // after checking the max length in the required fields: id and ext, proceed to submit
             handleSubmit();
         }
     }
